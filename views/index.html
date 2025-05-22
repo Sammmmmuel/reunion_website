@@ -1,43 +1,66 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>High School Reunion</title>
-  <link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Mr+Dafoe" />
-  <link rel="stylesheet" href="/style.css">
-</head>
+<html lang="en">
+    <head>
+        <title>High School Reunion</title>
+        <link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Mr+Dafoe" />
+        <link rel="stylesheet" href="/style.css">
+      </head>
+      
 <body>
 
-  <!-- Hero Section -->
+  <!-- HERO SECTION -->
   <section class="hero">
     <h1>CLASS OF 2005 REUNION</h1>
-    <!-- <p>Reunited and it feels so good!</p> -->
     <p>AUGUST 2, 2025</p>
-    <!-- — Portobellos 150 Main St #116, Salinas, CA 93901 -->
     <!-- <a href="#message">⬇ Scroll Down</a> -->
   </section>
 
-  <!-- Message Section -->
-  <section class="split-section">
+  <!-- COMBINED SPLIT SECTION -->
+  <section class="split-section" id="message">
+    <!-- LEFT: Message -->
     <div class="split-left">
       <div class="content">
-        <h2>Welcome Back, Classmates!</h2>
-        <p>
-          We’ve come a long way since high school. This event is about reconnecting,
-          celebrating our journey, and having fun. Bring your stories, your laughter,
-          and your favorite memories. See you there!
-        </p>
+        <h2 class="contentfont">Reunited and it feels so good !</h2>
+        <h2>Hello Class of 2005!</h2>
+  <p>We can't believe it's been <strong>20 years</strong> since we walked the forum of <strong>NMCHS</strong>!</p>
+  <p>
+    It's time to reconnect, reminisce, and celebrate everything that’s happened since graduation.
+    Whether you’ve stayed in town or moved across the globe, we hope you'll join us for a weekend
+    full of fun, memories, and familiar faces.
+  </p>
+  <p>
+    Explore this site for all the details—event schedule, location, RSVP info, and more.
+  </p>
+  <p><strong>Let’s make this reunion one to remember!</strong></p>
       </div>
     </div>
+
+    <!-- RIGHT: Top (Ticket) + Bottom (Survey) -->
     <div class="split-right">
-      <div class="content">
-        <h2>🎟 Buy Your Ticket</h2>
-        <p>Reserve your spot now! Tickets are only $25.</p>
-        <form action="/create-checkout-session" method="POST">
-          <button type="submit">Buy Ticket</button>
-        </form>
+      <div class="right-top">
+        <div class="content">
+          <h2>🎟 Buy Your Ticket</h2>
+          <div class="venmo-option">
+            <p>Prefer to use Venmo?</p>
+            <a href="https://venmo.com/YourUsername?txn=pay&amount=25&note=Reunion%20Ticket" class="venmo-button" target="_blank">
+              Pay with Venmo
+            </a>
+          </div>
+          <!-- <p>Reserve your spot now! Tickets are only $25.</p> -->
+          <form action="/create-checkout-session" method="POST">
+            <button type="submit">Buy Ticket</button>
+          </form>
+        </div>
+      </div>
+      <div class="right-bottom">
+        <div class="content">
+          <h3>📋 Share Your Thoughts</h3>
+          <p>We’d love your input! Take our short survey to help us plan better.</p>
+          <a href="https://example.com/survey" target="_blank" class="survey-link">Take the Survey</a>
+        </div>
       </div>
     </div>
   </section>
