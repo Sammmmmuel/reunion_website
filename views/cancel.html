@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payment Cancelled</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .cancel-container {
+      background: #fff;
+      padding: 3em 2em;
+      border-radius: 12px;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+      max-width: 400px;
+    }
+
+    .cancel-container h1 {
+      font-size: 1.8em;
+      margin-bottom: 0.5em;
+      color: #cc0000;
+    }
+
+    .cancel-container p {
+      font-size: 1em;
+      margin-bottom: 2em;
+      color: #666;
+    }
+
+    .cancel-container a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #0078D4;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .cancel-container a:hover {
+      background-color: #005aab;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cancel-container">
+    <h1>Payment Cancelled</h1>
+    <p>Looks like you didn’t complete your ticket purchase. No worries — you can try again anytime.</p>
+    <a href="/">Return to Home</a>
+  </div>
+
+</body>
+</html>
