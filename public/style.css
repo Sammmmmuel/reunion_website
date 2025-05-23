@@ -149,7 +149,7 @@ font-size: x-large;
   
   .split-section h2, .split-section h3 {
     font-size: 2em;
-    margin-bottom: 0.5em;
+    /* margin-bottom: 0.5em; */
   }
   
   .split-section p {
@@ -192,8 +192,8 @@ font-size: x-large;
     background-color: #3d95ce;
     color: white;
     text-decoration: none;
-    border-radius: 4px;
-    margin-top: 1em;
+    /* border-radius: 4px; */
+    /* margin-top: 1em; */
   }
   
   .venmo-button:hover {
