@@ -134,11 +134,12 @@ body, html {
   }
   
   .split-section .content {
-    max-width: 500px;
+    /* max-width: 500px; */
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+font-size: x-large;
   /* font-family: "Mr Dafoe"; */
   }
 
