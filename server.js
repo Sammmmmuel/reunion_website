@@ -28,7 +28,7 @@ app.post('/create-checkout-session', async (req, res) => {
         product_data: {
           name: 'High School Reunion Ticket',
         },
-        unit_amount: 2500, // $25.00
+        unit_amount: 6000, // $60.00
       },
       quantity: 1,
     }],
