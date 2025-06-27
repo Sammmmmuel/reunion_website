@@ -14,7 +14,7 @@ body, html {
   
   /* === Hero Section === */
   .hero {
-    background-image: url('/images/20th.png');
+    background-image: url('/images/condorslogo.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
